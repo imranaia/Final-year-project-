@@ -1,0 +1,69 @@
+                                            For openai use only
+
+
+1. Requirements
+Install openai if you haven't:
+pip install openai
+
+
+2. Set your OpenAI API key securely
+Put this in your .env file or add in app.py (if temporary):
+import openai
+openai.api_key = "your_openai_api_key_here"
+Important: Don’t hardcode API keys in production.
+
+
+3. Modify handle_message to include GPT fallback
+Replace your current handle_message function with this version:
+async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    query = update.message.text.strip().lower()
+    result = search_data(query)
+
+    if result:
+        await update.message.reply_text(result)
+    else:
+        # GPT fallback
+        await update.message.reply_text("🤔 I didn't find an exact match... Let me think...")
+
+        try:
+            response = openai.ChatCompletion.create(
+                model="gpt-4",  # or "gpt-3.5-turbo"
+                messages=[
+                    {"role": "system", "content": "You are an assistant for Al-Qalam University answering academic, fee, and student policy questions."},
+                    {"role": "user", "content": query}
+                ],
+                max_tokens=300,
+                temperature=0.5
+            )
+            answer = response['choices'][0]['message']['content']
+            await update.message.reply_text(answer)
+        except Exception as e:
+            await update.message.reply_text("⚠️ GPT fallback failed. Please ask something else.")
+            print("OpenAI Error:", e)
+
+
+4. Optional: Add toggle in code
+You can add a variable at the top of your file:
+USE_OPENAI_FALLBACK = True
+
+Then wrap the GPT fallback part like this:
+if USE_OPENAI_FALLBACK:
+    # OpenAI code block here
+
+
+5. Example .env for security (Optional)
+If you prefer using dotenv, do this:
+pip install python-dotenv
+Then in your project root:
+.env
+OPENAI_API_KEY=your_openai_key_here
+
+In app.py:
+from dotenv import load_dotenv
+import os
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+Now, your chatbot will:
+First search your local school_data.json.
+If no match is found, fallback to OpenAI GPT for help.

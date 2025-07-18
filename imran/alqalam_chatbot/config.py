@@ -1,0 +1,3 @@
+# config.py
+openai_api_key = "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"
+telegram_token = "7850063077:AAGy85EYNzKDf05AGmXdIu_nVqsujyihlxs"

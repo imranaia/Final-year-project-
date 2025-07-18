@@ -1,0 +1,45 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="dark-theme page-form">
+  <div class="container">
+    <h1>⚙️ Welcome, {{ username }}</h1>
+
+    <div id="message"></div>
+
+    <form id="jsonForm">
+      <label for="jsonData">Edit <code>school_data.json</code>:</label>
+      <textarea id="jsonData" name="jsonData" required></textarea>
+      <button type="submit" class="btn primary">💾 Save Changes</button>
+    </form>
+
+    <!-- Alias Buttons (optional if already injected via JS) -->
+    <div class="alias-buttons" id="aliasButtons"></div>
+
+    <!-- Add New Admin -->
+    <div id="addAdminModal">
+      <h2>Add New Admin</h2>
+      <form method="post" action="{{ url_for('add_admin') }}">
+        <label>Username</label>
+        <input type="text" name="new_username" required />
+        <label>Password</label>
+        <input type="password" name="new_password" required />
+        <button type="submit" class="btn secondary">➕ Add Admin</button>
+      </form>
+    </div>
+
+    <!-- Logout -->
+    <div style="margin-top: 2rem;">
+      <a href="{{ url_for('logout') }}" class="btn primary">🚪 Logout</a>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

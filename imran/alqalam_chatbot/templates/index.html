@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome | Al-Qalam University Chatbot</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="dark-theme">
+  <div class="container">
+    <div class="header">
+      <h1>🧠 Al-Qalam University Chatbot</h1>
+      <p>Your personal assistant for school-related inquiries.</p>
+    </div>
+
+    <div class="card welcome-box">
+      <h2>🎓 What Can I Help You With?</h2>
+      <ul class="features-list">
+        <li>💰 Fees & Registration Info</li>
+        <li>📅 Exam & Timetable Updates</li>
+        <li>📚 GSP & Course Details</li>
+        <li>🎓 Graduation & CGPA Calculation</li>
+        <li>📖 Library & Hostel Rules</li>
+        <li>👨‍🏫 Staff & School Info</li>
+        <li>Telegram-powered auto-reply system</li>
+        <li>Admin can manage chatbot knowledge base</li>
+      </ul>
+      <p class="note">Use our Telegram bot for quick replies or update data as admin.</p>
+
+      <div class="buttons">
+        <a href="https://t.me/alqalamm_bot" target="_blank" class="btn primary">🚀 Use Chatbot on Telegram</a>
+        <a href="{{ url_for('login') }}" class="btn secondary">🔒 Admin Login</a>
+      </div>
+    </div>
+
+    <footer>
+      <p>🔧 Built by AIA Tech Innovations | ❤️ Al-Qalam University</p>
+    </footer>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

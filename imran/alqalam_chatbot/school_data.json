@@ -1,0 +1,366 @@
+{
+  "aliases": {
+    "about": "school_info",
+    "administrators": "staff",
+    "auk": "school_info",
+    "carryover": "carry over",
+    "cgpa": "cgpa calculation",
+    "chancellor": "staff.chancellor",
+    "counseling services": "counseling",
+    "course reg": "course registration",
+    "dress code": "dress",
+    "dvc": "staff.deputy_vice_chancellors",
+    "exam": "exam misconduct",
+    "fees payment": "fees",
+    "graduation": "graduation requirements",
+    "gsp": "gsp_programme",
+    "history": "school_info",
+    "hostel": "hostel rules",
+    "leadership": "staff",
+    "overview": "school_info.overview",
+    "principal officers": "staff.principal_officers",
+    "project": "project writing",
+    "school info": "school_info",
+    "sports": "sports.facilities",
+    "staff": "staff",
+    "studentaffairs": "student_affairs",
+    "studentcentre": "student_centre",
+    "vc": "staff.vice_chancellor",
+    "vice chancellor": "staff.vice_chancellor",
+    "event": "event",
+    "Timeline_of_Vice_Chancellor":"Timeline",
+    "Governing_Structure_of_AUk":"Governing Structure"
+  },
+  "event":[
+    "no upcoming event yet staytune"
+  ],
+  "Governing_Structure_of_AUk":[
+    "Governing Structure of AUk",
+    "1. Board of Trustees",
+    "- Highest policy-making body",
+    "- Includes respected figures like Alhaji Mahmud Yayale Ahmad (Chairman)",
+    "2. Governing Council",
+    "Responsible for strategic oversight. Key members include:",
+    "- Chairman: Sani Zangon Daura (CON)",
+    "- VC: Prof. Nasiru Musa Yauri",
+    "- DVC Admin: Prof. Amina Muhammad Sani",
+    "- DVC Academic: Dr. Armayau Zango Umar",
+    "- Other members: academics, community leaders, and university reps",
+    "3. Principal Officers",
+    "- Registrar: Muhammad Sidi Kabir",
+    "- Bursar: Dr. Hussaini Shu’aibu",
+    "- Librarian: Oversees the Bilya Sanda Library"
+  ],
+  "Timeline_of_Vice_Chancellor":[
+                                      "Timeline of Vice Chancellors",
+      "| Name                          | Tenure                    | Notes                                                                 | ",
+      "| Prof. Nasiru Musa Yauri       | 2012 (interim) & 2021–Now | Served briefly in 2012; reappointed in 2021 as the 6th substantive VC |",
+      "| Prof. Shehu Garki Ado         | 2016–2021                 | Preceded Prof. Yauri; tenure ended in Sept 2021                       |",
+      "| Prof. Kabiru Isyaku           | 2011–2016                 | Known for expanding academic programs                                 |",
+      "| Prof. Muhammad Sani Zahradeen | 2005–2011                 | Pioneer VC; oversaw the university’s foundational years               |"
+  ],
+  "data": {
+    "anti_corruption": {
+      "duties": [
+        "Receive and investigate corruption cases",
+        "Report staff and student-related corruption",
+        "Conduct awareness campaigns"
+      ],
+      "unit": "ICPC-linked ACTU"
+    },
+    "carry over": {
+      "policy": "A student who fails a course must retake it in a future semester. Repeated failure may delay graduation or affect CGPA."
+    },
+    "cgpa calculation": {
+      "info": "CGPA = Total Grade Points / Total Credit Units. Grade Points are calculated by multiplying the credit units  by the grade score (A=5, B=4, etc)."
+    },
+    "counseling": {
+      "services": [
+        "Personal, academic, and career guidance",
+        "Workshops and seminars on well-being",
+        "Available through the Student Affairs Unit"
+      ]
+    },
+    "course registration": {
+      "procedure": [
+        "Login to student portal",
+        "Select available semester",
+        "Choose courses based on departmental guidelines",
+        "Confirm and print course form"
+      ]
+    },
+    "dress": {
+      "policy": [
+        "All students must dress decently and in accordance with Islamic values.",
+        "Transparent, tight, or revealing clothing is prohibited.",
+        "Male students should avoid sagging trousers and inappropriate slogans on clothing.",
+        "Female students are expected to wear a proper hijab and loose-fitting clothes.",
+        "Dressing is monitored at gates, hostels, and lecture halls."
+      ]
+    },
+    "exam misconduct": {
+      "summary": [
+        "Leakage of exam questions",
+        "Possession of unauthorized materials",
+        "Copying from others or prepared notes",
+        "Giraffing (looking over shoulders)",
+        "Impersonation",
+        "Consulting unauthorized materials",
+        "Writing after exam ends",
+        "Plagiarism and data fabrication"
+      ]
+    },
+    "examination": {
+      "hospital_bed_exam": "Allowed with prior application, extra fee of ₦5,000, and transport of exam materials within 45 minutes.",
+      "misconduct": {
+        "investigation_process": [
+          "Reported by invigilator to Exam Officer",
+          "Student signs report",
+          "Forwarded to Dean",
+          "College Committee investigates",
+          "University Central Committee recommends penalty"
+        ],
+        "offences": [
+          "Leakage of exam questions",
+          "Possession of unauthorized materials",
+          "Copying from others or prepared notes",
+          "Giraffing (looking over shoulders)",
+          "Impersonation",
+          "Consulting unauthorized materials",
+          "Disturbing or assaulting others",
+          "Writing after exam ends",
+          "Plagiarism and data fabrication",
+          "Use of forged documents",
+          "Soliciting for grades"
+        ],
+        "penalties": {
+          "Group A": "Expulsion",
+          "Group B": "Rustication (suspension for 1-2 semesters)",
+          "Group C": "Loss of marks, paper cancellation, warning"
+        }
+      }
+    },
+    "fees": {
+      "description": "The fees structure includes tuition, registration, hostel, and examination fees. Special charges may apply for hospital bed exams (₦5,000 per paper).",
+      "hospital_exam_fee": "₦5,000 per paper",
+      "maternity_leave_fee": "Free, but coursework and exam postponements are regulated"
+    },
+    "graduation requirements": {
+      "requirements": [
+        "Completion of all registered courses",
+        "Minimum CGPA as specified by the department",
+        "Successful defense of final year project",
+        "No outstanding disciplinary issues or unpaid fees"
+      ]
+    },
+    "gsp_programme": {
+      "description": "Covers NUC-mandated General Studies, Qur’an memorization, Peace & Conflict, Disaster Management, Entrepreneurship"
+    },
+    "hostel rules": {
+      "rules": [
+        "No overnight guests",
+        "Visitor book must be signed",
+        "No male visitors in female hostel rooms and vice versa",
+        "No alcohol or smoking"
+      ]
+    },
+    "library": {
+      "e-library_access": [
+        "EBSCOHOST & SCIENCE DIRECT",
+        "Calibre ebooks, KOHA catalog, OER, Britannica",
+        "Online plagiarism checkers"
+      ],
+      "name": "Bilya Sanda (Khadimul Islam) Library",
+      "rules": [
+        "No eating, smoking, or loud discussion",
+        "Use student ID for access",
+        "Fines for late return: ₦50/day, ₦150/day for recalled books",
+        "Maximum 4 books for students, 6 for staff"
+      ],
+      "services": [
+        "Access to physical and e-library resources",
+        "Use of KOHA library management system",
+        "Orientation programs",
+        "ICT support and remote access"
+      ]
+    },
+    "library fines": {
+      "rules": [
+        "₦50/day for late return",
+        "₦150/day for recalled books",
+        "Maximum of 4 books for students"
+      ]
+    },
+    "medical_services": {
+      "clinic": {
+        "hours": "24/7 (Mon–Sun)",
+        "services": [
+          "Basic health treatment",
+          "Ambulance for emergencies",
+          "Referral to higher hospitals for serious cases"
+        ]
+      },
+      "maternity_leave": {
+        "policy": "12-week leave, must submit certificate 6 weeks before delivery",
+        "postponement": "Permitted between 6 weeks before and 9 weeks after delivery"
+      },
+      "sick_leave": {
+        "certificate_required": true,
+        "international_cases": "Must be verified by Nigerian embassy or approved body",
+        "submission": "Must be authenticated and sent to HOD via Health Services"
+      }
+    },
+    "project writing": {
+      "guidelines": [
+        "Choose a relevant topic approved by your supervisor",
+        "Follow the departmental format (cover page, abstract, chapters, references)",
+        "Avoid plagiarism and submit before deadline"
+      ]
+    },
+    "remedial_programmes": {
+      "SBRS": {
+        "IJMB": "1-year programme for 200L admission via JAMB DE",
+        "Pre-Degree": "For students lacking O-Level or UTME qualification"
+      }
+    },
+    "security": {
+      "description": "Vigilante and national security collaboration",
+      "drug_policy": "Zero tolerance for drug abuse – offenders face NDLEA prosecution"
+    },
+    "sports": {
+      "facilities": [
+        "Table Tennis",
+        "Volleyball",
+        "Handball",
+        "Football",
+        "Lawn Tennis",
+        "Basketball",
+        "Badminton"
+      ]
+    },
+    "student_affairs": {
+      "accommodation": {
+        "female_hostels": [
+          "Ulul-Albab",
+          "Sani Zangon Daura",
+          "Old Hostel",
+          "Usman Nagoggo"
+        ],
+        "male_hostel": "Kano House"
+      },
+      "counseling_services": [
+        "Individual/group counseling",
+        "Career and academic advice",
+        "Help with depression, anxiety, and personal issues",
+        "Workshops and seminars"
+      ],
+      "rules": [
+        "No overnight guests",
+        "Visitor book must be signed",
+        "No male visitors in female hostel rooms and vice versa",
+        "No alcohol or smoking"
+      ]
+    },
+    "student_centre": {
+      "facilities": "Shops, food stalls, and stationery outlets",
+      "purpose": "Ease and comfort for students"
+    },
+    "student_conduct": {
+      "penalties": [
+        "Expulsion for rape, cultism, and forgery",
+        "Rustication for indecent acts or illegal events",
+        "Warnings or disciplinary hearings for misconduct"
+      ],
+      "rules": [
+        "No smoking on campus",
+        "Decent dressing required",
+        "No fighting, stealing, or assault",
+        "No cultism or illegal associations",
+        "No indecent ceremonies or events without approval"
+      ]
+    }
+  },
+  "school_info": {
+    "academic_structure": [
+      "College of Computing & Information Science",
+      "College of Natural & Applied Sciences",
+      "College of Education",
+      "College of Humanities",
+      "College of Social & Management Sciences",
+      "School of Postgraduate Studies",
+      "School of Basic & Remedial Studies"
+    ],
+    "overview": {
+      "established": "2005",
+      "location": "Dutsinma Road, Katsina State, Nigeria",
+      "motto": "Knowledge is Light",
+      "ownership": "Managed by the Muslim Ummah (community)",
+      "type": "Private, not-for-profit Islamic university",
+      "website": "https://auk.edu.ng"
+    },
+    "popular_courses": [
+      "B.Sc. Computer Science",
+      "Software Engineering",
+      "Accounting",
+      "Political Science",
+      "B.A. Islamic Studies",
+      "Arabic",
+      "English",
+      "Hausa",
+      "M.Sc. & Ph.D. in Business Admin, Economics, Computer Science, Islamic Studies"
+    ],
+    "school_fees": "₦100,000 – ₦200,000 depending on course",
+    "unique_features": [
+      "First Islamic university in Nigeria",
+      "Moral education alongside academics",
+      "Modern facilities and ICT services"
+    ]
+  },
+  "staff": {
+    "chancellor": {
+      "contribution": "Donated over ₦1 billion for infrastructure",
+      "name": "Alhaji Aminu Alhassan Dantata",
+      "role": "Ceremonial head and benefactor"
+    },
+    "deputy_vice_chancellors": {
+      "DVC Academic": "Dr. Armayau Zango Umar",
+      "DVC Admin": "Prof. Amina Muhammad Sani"
+    },
+    "principal_officers": {
+      "Bursar": "Dr. Hussaini Shu’aibu",
+      "Librarian": "Oversees the Bilya Sanda Library",
+      "Registrar": "Muhammad Sidi Kabir"
+    },
+    "vc_history": [
+      {
+        "name": "Prof. Muhammad Sani Zahradeen",
+        "notes": "Pioneer VC",
+        "tenure": "2005–2011"
+      },
+      {
+        "name": "Prof. Kabiru Isyaku",
+        "notes": "Expanded academic programs",
+        "tenure": "2011–2016"
+      },
+      {
+        "name": "Prof. Shehu Garki Ado",
+        "notes": "Tenure ended September 2021",
+        "tenure": "2016–2021"
+      },
+      {
+        "name": "Prof. Nasiru Musa Yauri",
+        "notes": "6th substantive VC",
+        "tenure": "2012 (interim) & 2021–Now"
+      }
+    ],
+    "vice_chancellor": {
+      "appointed": "October 2021",
+      "focus": [
+        "Academic integrity and modest growth",
+        "Infrastructure development",
+        "Health insurance tech for informal workers"
+      ],
+      "name": "Prof. Nasiru Musa Yauri"
+    }
+  }
+}
